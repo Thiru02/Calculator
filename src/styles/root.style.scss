@@ -1,0 +1,43 @@
+$green: #12e177;
+$orange: #ffc72a;
+$blue: #4c43d4;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $blue;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: gray;
+  height: 50px;
+  min-width: 50px;
+  font-size: 30px;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.board {
+  margin: auto;
+  width: 200px;
+  border: 3px solid $green;
+  padding: 10px;
+  font-size: 20px;
+  .board-row {
+    display: flex;
+    align-items: center;
+  }
+  .display-box {
+    height: 40px;
+    padding: 3px;
+    bottom: 10px;
+    width: 195px;
+    background-color: lightgray;
+    font-size: xx-large;
+    font-weight: 300;
+    text-emphasis-color: #ffc72a;
+  }
+}
